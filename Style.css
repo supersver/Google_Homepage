@@ -1,0 +1,246 @@
+body{
+    background-color: white;
+    background-size: contain;
+        max-width: 95%;
+        margin: auto;
+}
+
+header button a {   /* sign in button */
+    color: white;
+    padding-right: 0;
+}
+
+header a {    /* links gmail and images */
+  
+    padding-right: 10px;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+html {
+    /* footer support */
+    position: relative;
+    min-height: 100%;
+  }
+
+.upperLinks{
+    position: absolute;
+    right: 0;
+    margin-top: 1.2%;
+    margin-right: 10%;
+    padding-right: 45px;
+}
+#gmail:hover{text-decoration: underline;}
+#images:hover{text-decoration: underline;}
+
+.buttonTop{
+    margin-top: 0.6%;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    background-color: rgb(51, 112, 245);
+    border: none;
+    opacity: 0.9;
+    width: 7em;
+    height: 5%;
+    border-radius: 5px;
+    
+    display: inline-block;
+    font-size: 15px;
+    
+}
+ 
+.buttonTop:hover {opacity: 3}
+
+
+#main-container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* Logo styling */
+.Google{
+    text-align: center;
+    font-family: "Trirong","Audiowide","Sofia",sans-serif;
+    margin-bottom: -0.9%;
+    padding-top: 80px;
+}
+
+.headG{
+    color: rgb(11, 179, 235);
+   text-align: center;
+    font-size: 89px;
+}
+.headO{
+    color: rgb(231, 66, 66);
+    text-align: center;
+    font-size: 89px;
+}
+.head-O{
+    color: rgb(199, 199, 43);
+    text-align: center;
+    font-size: 89px;
+}
+.head-G{
+    color: rgb(86, 86, 233);
+    text-align: center;
+    font-size: 89px;
+}
+.headL{
+    color: rgb(75, 170, 75);
+    text-align: center;
+    font-size: 89px;
+}
+.headE{
+    color: rgb(219, 73, 73);
+    text-align: center;
+    font-size: 89px;
+}
+
+/* End of logo styling */
+
+
+/* search bar styling */
+.wrapper {
+    position: relative;
+    display: flex;
+    min-width: 100px;
+    /*margin-right: 30%;
+    margin-left: 30%;
+    */
+    
+  }
+  
+  .search-icon {
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    width: 14px;
+  }
+
+  .clear-icon {
+    position: absolute ;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    cursor: pointer;
+     visibility: visible;
+  }
+
+  .search {
+    
+    border: 1px solid grey;
+    border-radius: 20px;
+    height: 35px;
+    width: 100%;
+    
+    padding: 2px 28px 2px 30px;
+    outline: 0;
+    background-color: #f5f5f5;
+  }
+  .search:hover, .search:focus {
+    border-color: white;
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  } /* end of search bar styling */
+
+
+  /* Google search button styling */
+  .button-middle1 {
+   
+    position: absolute;
+    text-align: center;
+    margin-left: 22%;
+    margin-top: 1%;
+    background-color:  rgb(248, 245, 245);
+    color: rgb(0, 0, 0);
+    border: none;
+    opacity: 1.9;
+    width: 9em;
+    height: 5%;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 15px;    
+}
+.button-middle1 {opacity: 2} 
+.button-middle1:hover{ border: 1.5px solid #3f3e3e;
+    background-color: rgb(228, 228, 228);}
+/* end of Google search button styling */
+
+/* I'm feeling lucky button styling */
+.button-middle2 {
+    
+    position: absolute;
+    text-align: center;
+    margin-left: 31.2%;
+    margin-top: 1%;
+    background-color: rgb(248, 245, 245);
+    color: rgb(0, 0, 0);
+    border: none;
+    opacity: 1.9;
+    width: 9em;
+    height: 5%;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 15px;
+}
+.button-middle2 {opacity: 2}
+.button-middle2:hover{ border: 1.5px solid #202020;
+    background-color: rgb(228, 228, 228);}
+/* end of I'm feeling lucky button styling */
+
+#text{
+    margin-left: 23%;
+    margin-top: 7%;
+    font-weight: lighter;
+    font-size: smaller;
+}
+#language:hover{text-decoration: underline;}
+#languag:hover{text-decoration: underline;}
+#language3:hover{text-decoration: underline;}
+#language4:hover{text-decoration: underline;}
+#language5:hover{text-decoration: underline;}
+#language6:hover{text-decoration: underline;}
+#language7:hover{text-decoration: underline;}
+#language8:hover{text-decoration: underline;}
+#language9:hover{text-decoration: underline;}
+
+/* FOOTER */
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 99.7%;
+    padding: 2px;
+    border: 1px solid var(--border-color);
+    background: rgb(224, 223, 223);
+    color: var(--footer-font);
+    font-size: 14px;
+  }
+  
+  .left-section,
+  .right-section {
+    display: flex;
+  }
+  
+  .right-section {
+    margin-right: 30px;
+  }
+  
+  .footer-link {
+    display: block;
+    padding: 10px 0 10px 30px;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+  
+  
